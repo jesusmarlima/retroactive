@@ -1,0 +1,7 @@
+
+# .pairs - configuration for 'git pair'
+# place in project or home directory
+pairs:
+  de: David Edwards; davwards
+  vs: Vanessa Sant'Anna; vsanta
+  jl: Jesus Lima; jesusmarlima
