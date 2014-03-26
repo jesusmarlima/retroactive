@@ -1,0 +1,7 @@
+h1 Action Items
+
+= link_to 'Add Action Item', new_action_item_path
+
+ul
+  - @action_items.each do |action_item|
+    li= action_item.action
