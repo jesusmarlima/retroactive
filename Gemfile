@@ -22,9 +22,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'simple_bdd', require: false
 group :test, :development do
   gem 'rspec-rails'
+  gem 'simple_bdd', require: false
   gem 'capybara'
 end
 
