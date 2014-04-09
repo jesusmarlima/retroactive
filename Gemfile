@@ -26,6 +26,8 @@ group :test, :development do
   gem 'rspec-rails'
   gem 'simple_bdd', require: false
   gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'pry'
 end
 
 # Use ActiveModel has_secure_password
