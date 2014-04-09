@@ -18,7 +18,7 @@ class ActionItemsController < ApplicationController
   end
 
   def create
-    ActionItem.create params.require(:action_item).permit(:action)
+    ActionItem.create action_item_params
     redirect_to root_path
   end
 
